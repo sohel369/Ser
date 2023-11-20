@@ -38,6 +38,9 @@
     cursor: pointer;
     background: transparent;
 }
+.service:active{
+    filter: brightness(50%);
+}
 .service i{
     font-size: 30px;
     margin-bottom: 10px;
@@ -62,5 +65,8 @@
     }
     .row{
         margin: 20px 20px;
+    }
+    .container h1{
+        color: rgb(6, 6, 97);
     }
 }
